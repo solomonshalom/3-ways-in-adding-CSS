@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+  <title>Adding CSS</title>
+</head>
+
+<body>
+
+<style>
+  .h-font {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.mh-font {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center
+}
+
+.ul-font {
+  text-align:right; 
+  width:100%; 
+  list-style-type: none; 
+   text-align: center;
+   font-family: "Jacquard 12", system-ui;
+    font-style: normal;
+    font-size: 20px;
+}
+
+a {
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+a:hover {
+  background-color: #ce0606;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+
+</style>
+
+  <h1 class="h-font" style="text-align: center">Three Methods of Adding CSS</h1>
+
+  <h3 class="mh-font">Menu</h3>
+  <ul class="ul-font" dir="rtl">
+    <li><a href="./inline.html">Inline HTML</a></li>
+    <br>
+    <br>
+    <br>
+    <li><a href="./Internal.html">Internal HTML</a></li>
+    <br>
+    <br>
+    <br>
+    <li><a href="./external.html">External HTML</a></li>
+  </ul>
+</body>
+
+</html>
